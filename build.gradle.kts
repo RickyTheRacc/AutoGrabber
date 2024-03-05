@@ -7,6 +7,6 @@ version = "1.0"
 
 tasks.jar {
     manifest {
-        attributes["Main-Class"] = "me.ricky.grabber.Main"
+        attributes["Main-Class"] = "me.ricky.grabber.Grabber"
     }
 }

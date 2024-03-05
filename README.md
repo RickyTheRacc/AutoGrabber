@@ -12,7 +12,8 @@ in previous classes. When we asked our teacher to make the tests public, she ref
 for her to fix the tests took days, often up to the date that the assignment was due.
 
 ## Usage
-- Copy the contents of the `Main.java` file into the file you're submitting to gradescope
+You can find an example in the `Example.java` class!
+- Copy the contents of the `Grabber.java` file into the file you're submitting to gradescope
 - You'll want to add a boolean to ensure the code only runs once if the function is called multiple times
 - Set the "webhook" variable to the URL of the webhook you want to send the data to
 - Set the booleans to true for any information you want to grab (I recommend listing folders before trying to grab them)
