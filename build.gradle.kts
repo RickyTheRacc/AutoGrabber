@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "me.ricky"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 tasks.jar {
     manifest {
