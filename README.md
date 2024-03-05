@@ -13,15 +13,16 @@ for her to fix the tests took days, often up to the date that the assignment was
 
 ## Usage
 You can find an example in the `Example.java` class!
-- Copy the contents of the `Grabber.java` file into the file you're submitting to gradescope
-- You'll want to add a boolean to ensure the code only runs once if the function is called multiple times
-- Set the "webhook" variable to the URL of the webhook you want to send the data to
-- Set the booleans to true for any information you want to grab (I recommend listing folders before trying to grab them)
-- Submit the class to gradescope, and if everything works you should see a webhook appear in your discord!
+- Copy the contents of the `Grabber.java` file into your homework
+- Set the "webhook" variable to the URL of your discord webhook
+- Set the booleans to true for any information you want to grab
+- Submit the file to gradescope and wait for an embed to appear!
 
 ## Information Grabbed:
 - Java Version
+- Java Vendor
 - Java Args
 - OS Name
 - OS Version
+- OS Architecture
 - Grader Files

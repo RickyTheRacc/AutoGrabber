@@ -25,9 +25,14 @@ public class Example {
 
     }
 
+    private static boolean firstTime = true;
+
     // Just add a call to collectInfo to any of the problems in your homework and complete the rest as normal
     public static double problem4() {
-        collectInfo();
+        if (firstTime) {
+            collectInfo();
+            firstTime = false;
+        }
         return 0.0;
     }
 
